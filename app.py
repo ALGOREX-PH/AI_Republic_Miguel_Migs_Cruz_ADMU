@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Miguel Cruz's News Articles", layout="centered")
 
-dataframed = pd.read_csv("https://raw.githubusercontent.com/ALGOREX-PH/AI_Republic_Anna_Anya_Garcia_UST/main/Dataset/Articles_AI.csv")
+dataframed = pd.read_csv("https://raw.githubusercontent.com/ALGOREX-PH/AI_Republic_Miguel_Migs_Cruz_ADMU/main/Dataset/Articles_AI.csv")
 
 if 'current_page' not in st.session_state:
     st.session_state.current_page = 'Home'
